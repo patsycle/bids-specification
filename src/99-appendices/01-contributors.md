@@ -48,6 +48,7 @@ If you contributed to the BIDS ecosystem and your name is not listed, please add
 -   Teon L. Brooks 📖💻⚠️💬👀🤔🔧🐛📢
 -   Suyash Bhogawar 📖💡⚠️🔧💬
 -   Vince D. Calhoun 📖
+-   Patricia Clement 💬 📖🔣💡🤔📓
 -   Alexander L. Cohen 🐛💻📖💬
 -   R. Cameron Craddock 📖📢
 -   Sasha D'Ambrosio 📖
