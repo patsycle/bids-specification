@@ -16,12 +16,12 @@ permission from Y. Suzuki and OSIPI Task force 4.1: ASL lexicon milestone 1 "[St
 
 
 ![PCASL](../04-modality-specific-files/images/asl_pcasl_sequence.png)
-For (P)CASL, specifying the `LabelingDuration` and the `PostLabelingDelay` required. The `LabelingDuration` is defined as the total duration of the labeling pulse train, in 
+*For (P)CASL, specifying the `LabelingDuration` and the `PostLabelingDelay` required. The `LabelingDuration` is defined as the total duration of the labeling pulse train, in 
 seconds, corresponding to the temporal width of the labeling bolus for (P)CASL. `PostLabelingDelay` is the time, in seconds, after the end of the labeling until the middle of 
 the excitation pulse applied to the imaging slab (for 3D acquisition) or first slice (for 2D acquisition). Additionally, the `BackgroundSuppressionPulseTime`'s is required in 
 case `BackgroundSuppression` was applied. This an array of numbers containing the timing, in seconds, of the background suppression pulses with respect to the start of the 
 labeling. In case of `PCASL`, the recommended `PCASLType` field defines the type of the gradient pulses used in the `control` condition (`balanced` or `unbalanced`), whereas, in 
-case of `CASL`, the recommended `CASLType` field describes if a separate coil is used for labeling (`single-coil` or `double-coil`).
+case of `CASL`, the recommended `CASLType` field describes if a separate coil is used for labeling (`single-coil` or `double-coil`).*
 
 ![PCASL Labeling Pulses](../04-modality-specific-files/images/asl_pcasl_labeling_pulses.png)
 
