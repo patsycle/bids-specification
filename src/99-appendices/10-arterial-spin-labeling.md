@@ -11,14 +11,14 @@ positive sign. For example, in the case of FAIR this would be selective inversio
 
 ## Summary Image of the most common ASL sequences
 
-![PCASL](../04-modality-specific-files/images/asl_pcasl_sequence.JPG)
+![PCASL](../04-modality-specific-files/images/asl_pcasl_sequence.png)
 
-![PCASL Labeling Pulses](../04-modality-specific-files/images/asl_pcasl_labeling_pulses.JPG)
+![PCASL Labeling Pulses](../04-modality-specific-files/images/asl_pcasl_labeling_pulses.png)
 
-![PCASL without Bolus Cut-off](../04-modality-specific-files/images/asl_pasl_boluscutoff_false.JPG)
+![PCASL without Bolus Cut-off](../04-modality-specific-files/images/asl_pasl_boluscutoff_false.png)
 
-![PCASL QUIPSSII](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_quipssII.JPG)
+![PCASL QUIPSSII](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_quipssII.png)
 
-![PCASL Q2TIPS](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_q2tips.JPG)
+![PCASL Q2TIPS](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_q2tips.png)
 
 ## Flowchart (based on dependency table)
