@@ -49,3 +49,7 @@ therefore a number, representing the duration between the end of the labeling an
 be specified in `BolusCutOffDelay`.*
 
 ## Flowchart (based on dependency table)
+
+The specification includes a dependency table, describing metadata field dependencies for ASL. This flowchart might further clarify the table.
+
+![ASL Flowcharts](../04-modality-specific-files/images/asl_flowcharts.PNG)
