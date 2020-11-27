@@ -17,7 +17,7 @@ permission from Y. Suzuki and OSIPI Task force 4.1: ASL lexicon milestone 1 "[St
 
 ![PCASL](../04-modality-specific-files/images/asl_pcasl_sequence.png)
 
-*For (P)CASL, specifying the `LabelingDuration` and the `PostLabelingDelay` required. The `LabelingDuration` is defined as the total duration of the labeling pulse train, in 
+*For (P)CASL, specifying the `LabelingDuration` and the `PostLabelingDelay` is required. The `LabelingDuration` is defined as the total duration of the labeling pulse train, in 
 seconds, corresponding to the temporal width of the labeling bolus for (P)CASL. `PostLabelingDelay` is the time, in seconds, after the end of the labeling until the middle of 
 the excitation pulse applied to the imaging slab (for 3D acquisition) or first slice (for 2D acquisition). Additionally, the `BackgroundSuppressionPulseTime`'s is required in 
 case `BackgroundSuppression` was applied. This an array of numbers containing the timing, in seconds, of the background suppression pulses with respect to the start of the 
@@ -32,6 +32,10 @@ are the average labeling gradient and the maximum amplitude of the gradient swit
 and the delay between the peaks of the individual labeling pulses, in milliseconds.*
 
 ![PCASL without Bolus Cut-off](../04-modality-specific-files/images/asl_pasl_boluscutoff_false.png)
+
+*For PASL, specifying the `PostLabelingDelay` is required. `PostLabelingDelay` is the time, in seconds, from the middle of the labeling pulse until the middle of 
+the excitation pulse applied to the imaging slab (for 3D acquisition) or first slice (for 2D acquisition). Additionally, the `BolusCutOffFlag` field is required, which is a 
+boolean indicating if a bolus cut-off technique is used.*
 
 ![PCASL QUIPSSII](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_quipssII.png)
 
