@@ -1,6 +1,6 @@
 # Appendix X: Arterial Spin Labeling
 
-## Introduction
+This sections provides additional clarification for some specific topics within the BIDS specification for Arterial Spin Labeling.
 
 ## `control` and `label` definition
 
