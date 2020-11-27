@@ -39,6 +39,13 @@ boolean indicating if a bolus cut-off technique is used.*
 
 ![PCASL QUIPSSII](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_quipssII.png)
 
+*When `BolusCutOffFlag` is set true for `PASL`, two additional metadata fields are required: `BolusCutOffTechnique` and `BolusCutOffDelay`. In this example, the 
+`BolusCutOffTechnique`, which is the name of the technique used for applying a bolus cut-off, is QUIPSS-II consisting of only one bolus cut-off pulse. The `BolusCutOffDelay` is 
+therefore a number, representing the duration between the end of the labeling and the start of the bolus cut-off saturation pulse, in seconds.*
+
 ![PCASL Q2TIPS](../04-modality-specific-files/images/asl_pasl_boluscutoff_true_q2tips.png)
+
+*In this example, the `BolusCutOffTechnique` applied is Q2TIPS, consisting of multiple bolus cut-off pulses. In this case, only the duration of the first and last pulse should 
+be specified in `BolusCutOffDelay`.*
 
 ## Flowchart (based on dependency table)
