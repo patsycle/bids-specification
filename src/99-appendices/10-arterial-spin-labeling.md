@@ -16,6 +16,7 @@ permission from Y. Suzuki and OSIPI Task force 4.1: ASL lexicon milestone 1 "[St
 
 
 ![PCASL](../04-modality-specific-files/images/asl_pcasl_sequence.png)
+
 *For (P)CASL, specifying the `LabelingDuration` and the `PostLabelingDelay` required. The `LabelingDuration` is defined as the total duration of the labeling pulse train, in 
 seconds, corresponding to the temporal width of the labeling bolus for (P)CASL. `PostLabelingDelay` is the time, in seconds, after the end of the labeling until the middle of 
 the excitation pulse applied to the imaging slab (for 3D acquisition) or first slice (for 2D acquisition). Additionally, the `BackgroundSuppressionPulseTime`'s is required in 
@@ -24,6 +25,11 @@ labeling. In case of `PCASL`, the recommended `PCASLType` field defines the type
 case of `CASL`, the recommended `CASLType` field describes if a separate coil is used for labeling (`single-coil` or `double-coil`).*
 
 ![PCASL Labeling Pulses](../04-modality-specific-files/images/asl_pcasl_labeling_pulses.png)
+
+*Several recommended metadata field describe the labeling pulses of the labeling pulse train in PCASL. The `LabelingPulseAverageGradient` and the `LabelingPulseMaximumGradient` 
+are the average labeling gradient and the maximum amplitude of the gradient switched on during the application of the labeling RF pulse(s), in milliteslas per meter. The 
+`LabelingPulseAverageB1` is the average B1-field strength of the RF labeling pulses, in microteslas. The `LabelingPulseDuration` and `LabelingPulseInterval` are the duration of, 
+and the delay between the peaks of the individual labeling pulses, in milliseconds.*
 
 ![PCASL without Bolus Cut-off](../04-modality-specific-files/images/asl_pasl_boluscutoff_false.png)
 
