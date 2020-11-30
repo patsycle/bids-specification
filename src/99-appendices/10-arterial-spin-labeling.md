@@ -51,4 +51,4 @@ be specified in `BolusCutOffDelay`.*
 
 The specification includes a dependency table, describing metadata field dependencies for ASL. This flowchart might further clarify the table.
 
-![ASL Flowcharts](../04-modality-specific-files/images/asl_flowcharts.png)
+![ASL Flowchart](../04-modality-specific-files/images/asl_flowchart.png)
